@@ -184,7 +184,7 @@ func (i *Interpolator) Err() error {
 }
 
 func (i *Interpolator) replace(content string) (string, error) {
-	return replace.Replace(content, "@{", "}", i.resolve)
+	return replace.Replace(content, "${", "}", i.resolve)
 }
 
 func (i *Interpolator) ToEnv(key, value string) corev1.EnvVar {
