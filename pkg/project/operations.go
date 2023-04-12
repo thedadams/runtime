@@ -190,7 +190,7 @@ func List(ctx context.Context, opts Options) (projects []string, warnings map[st
 	return projects, warnings, nil
 }
 
-func GetDetails(ctx context.Context, opts Options, projectNames []string) (result []DetailProject, err error) {
+func GetDetails(ctx context.Context, cfg *config.CLIConfig, opts Options, projectNames []string) (result []DetailProject, err error) {
 	entryCh := make(chan DetailProject)
 	errCh := make(chan error)
 
@@ -198,7 +198,7 @@ func GetDetails(ctx context.Context, opts Options, projectNames []string) (resul
 	for _, projectName := range projectNames {
 		go func(proj string, opts Options) {
 			opts.Project = proj
-			c, err := Client(ctx, opts)
+			c, err := getClient(ctx, cfg, opts, proj)
 			if err != nil {
 				errCh <- err
 			}

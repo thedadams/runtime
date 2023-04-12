@@ -84,7 +84,7 @@ func (a *Project) Run(cmd *cobra.Command, args []string) error {
 	}
 
 	out := table.NewWriter(tables.ProjectClient, a.Quiet, a.Output)
-	projectDetails, err := project.GetDetails(cmd.Context(), a.client.Options(), projectNames)
+	projectDetails, err := project.GetDetails(cmd.Context(), cfg, a.client.Options(), projectNames)
 	if err != nil {
 		return err
 	}
