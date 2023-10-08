@@ -108,8 +108,6 @@ github.com/acorn-io/aml/cli v0.0.0-20231002033428-fffd2918563a h1:0oMIx6lH47ImOa
 github.com/acorn-io/aml/cli v0.0.0-20231002033428-fffd2918563a/go.mod h1:x7Y6lLMTqMD65KWjgVaGem5tQP2ZeevOQiaps9epJj4=
 github.com/acorn-io/aml/legacy v0.0.0-20230929081514-1e9f3394432e h1:W67DG9AcoNvBwIOR9OFUCZlSJBaHuvM2kXQ2+C6EnLk=
 github.com/acorn-io/aml/legacy v0.0.0-20230929081514-1e9f3394432e/go.mod h1:XnJZSZq/tG/jWPE/tmm2zy90gOZrJRIaOyKpoMulxfE=
-github.com/acorn-io/baaah v0.0.0-20231006151510-91fb95b6997d h1:6b7zZ4If/X0rT3j3MAXXnX/WIZMXfy+7YB8aruifwa4=
-github.com/acorn-io/baaah v0.0.0-20231006151510-91fb95b6997d/go.mod h1:1KSGxZt0E2MDedJESKUUYtxCwsJ3A+xZiw2QD8cVbjU=
 github.com/acorn-io/cmd v0.0.0-20230929053520-ebe1b9879b38 h1:oJMGvI702ZW5L0JjJfGV9ekzU2IqqTGjmAQl4gkO6Ro=
 github.com/acorn-io/cmd v0.0.0-20230929053520-ebe1b9879b38/go.mod h1:bo9ONX4kagbQmXcG4bnfoK53MBFFtbUZ5fR7s9NfS+M=
 github.com/acorn-io/mink v0.0.0-20230804175412-8d121aae112c h1:3equCG9oMf2I5iDZxllb41jmNNSTiIpU3IegCHBtVyk=
@@ -958,6 +956,8 @@ github.com/syndtr/goleveldb v1.0.1-0.20220721030215-126854af5e6d h1:vfofYNRScrDd
 github.com/syndtr/goleveldb v1.0.1-0.20220721030215-126854af5e6d/go.mod h1:RRCYJbIwD5jmqPI9XoAFR0OcDxqUctll6zUj/+B4S48=
 github.com/thales-e-security/pool v0.0.2 h1:RAPs4q2EbWsTit6tpzuvTFlgFRJ3S8Evf5gtvVDbmPg=
 github.com/thales-e-security/pool v0.0.2/go.mod h1:qtpMm2+thHtqhLzTwgDBj/OuNnMpupY8mv0Phz0gjhU=
+github.com/thedadams/baaah v0.0.0-20231008184338-336415e2c9fa h1:LYpOUE6pDp0dU4lpYpq7cu6zn+ZQJW+DZrKPJqE/yu0=
+github.com/thedadams/baaah v0.0.0-20231008184338-336415e2c9fa/go.mod h1:1KSGxZt0E2MDedJESKUUYtxCwsJ3A+xZiw2QD8cVbjU=
 github.com/theupdateframework/go-tuf v0.6.1 h1:6J89fGjQf7s0mLmTG7p7pO/MbKOg+bIXhaLyQdmbKuE=
 github.com/theupdateframework/go-tuf v0.6.1/go.mod h1:LAFusuQsFNBnEyYoTuA5zZrF7iaQ4TEgBXm8lb6Vj18=
 github.com/tidwall/gjson v1.14.3 h1:9jvXn7olKEHU1S9vwoMGliaT8jq1vJ7IH/n9zD9Dnlw=
